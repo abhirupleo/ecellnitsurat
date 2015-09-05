@@ -1,10 +1,10 @@
 @font-face{
 	font-family: "StMarie-Thin";
-	src: url(fonts/StMarie-Thin.otf) format("otf");
+	src: url(https://drive.google.com/open?id=0BzkGLhs2trP0SXczci01OHpnQzg) format("otf");
 }
 @font-face{
 	font-family: "SlimJoe";
-	src: url(fonts/Slim-Joe.otf) format("otf");
+	src: url(https://drive.google.com/open?id=0BzkGLhs2trP0QV9sSG1vdXU0UTA) format("otf");
 }
 body{
 	position:relative;

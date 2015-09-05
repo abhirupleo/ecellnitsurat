@@ -1,0 +1,217 @@
+@font-face{
+	font-family: "StMarie-Thin";
+	src: url(fonts/StMarie-Thin.otf) format("otf");
+}
+@font-face{
+	font-family: "SlimJoe";
+	src: url(fonts/Slim-Joe.otf) format("otf");
+}
+body{
+	color:white;
+}
+img{
+	margin:40px;
+	opacity:0.8;
+	width:100px;
+	height:100px;
+}
+a:hover{
+	text-decoration:none;
+}
+hr{
+	width:70%;
+	border:solid white 1px;
+	opacity:0.6;
+}
+.st{
+	font-family:'StMarie-Thin', sans-serif;
+}
+.slim{
+	font-family:'SlimJoe', sans-serif;
+}
+.page1{
+	height:95vh;
+	background-image: url("http://i.imgur.com/Z60E3KD.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow:hidden;
+}
+.mainnav{
+	color:white;
+	margin-top:70px;
+	padding:10px;
+	font-family:'Slim Joe', sans-serif;
+	transition: all 0.5s ease-in-out 0.1s;	
+}
+.mainnav:hover{
+	text-decoration:none;
+	color:black;
+	background: rgba(255,255,255,255.5);
+}
+.mainnav:visited,:active{
+	text-decoration:none;
+}
+.mainnavbar{
+	font-family:'Slim Joe', sans-serif;
+	color:white;
+	margin-top:70px;
+	padding:10px;
+}
+.title{
+	color:white;
+	font-size:70px;
+	margin-top:60px;
+}
+.surat{
+	opacity:0.6;
+	transition: all 0.6s ease-in-out;
+}
+.surat:hover{
+	opacity:1;
+}
+.subtitle{
+	font-size:50px;
+}
+.quote1{
+	font-size:30px;
+	margin-top:40px;
+}
+.quote2{
+	margin-top:-20px;
+}
+.quote3{
+	color:black;
+	font-size:30px;
+	margin:40px 0 0 0;
+}
+.quote4{
+	color:black;
+	font-size:30px;
+}
+.main2{
+	height:90vh;
+	background-image: url("http://i.imgur.com/FuAMLEw.jpg");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow:hidden;
+    margin-bottom:40px;
+}
+.inforow{
+	margin-left:7%;
+}
+.infobox{
+	border:solid white 1px;
+	border-radius:5px;
+	height:80vh;
+	padding:20px;
+	margin:30px;
+}
+.infohead{
+	font-size:35px;
+}
+.infocontent{
+	font-size:25px;
+	margin-bottom:7vh;
+}
+.infobutton{
+	background: rgba(0,0,0,0);
+	border:solid white 1px;
+	padding:20px;
+	color:white;
+	font-size:20px;
+	transition: all 0.6s ease-in-out;
+}
+.infobutton:hover{
+	text-decoration:none;
+	background: rgba(255,255,255,0.5);
+	color:black;
+}
+.footer{
+	color:black;
+	font-size:20px;
+}
+.footerleft{
+	color:black;
+	margin-top:50px;
+	transition: all 0.6s ease-in-out 0s;
+}
+.footerleft:hover{
+	text-decoration:none;
+	color:red;
+}
+.footerleft:visited,:active{
+	text-decoration:none;
+	color:black;
+}
+.footercenter{
+	margin-top:-10px;
+	opacity:0.6;
+	transition: all 0.6s ease-in-out 0.1s;
+}
+.footercenter img{
+	width:100px;
+}
+.footercenter:hover{
+	opacity:1;
+}
+.footerquote{
+	color:black;
+}
+.footercaption{
+	color:black;
+	margin-top:-4vh;
+	padding:1%;
+}
+@media (max-width: 600px){
+	.menu{
+		margin-top:-5vh;
+	}
+	.main2{
+		overflow:scroll;
+	}
+	.title{
+		font-size:40px;
+	}
+	.subtitle{
+		margin-top:-3%;
+		font-size:30px;
+	}
+	.quote1,.quote3,.quote4{
+		font-size:20px;
+	}
+	.quote4{
+		margin-left:-10px;
+	}
+	.quote2{
+		font-size:15px;
+		margin-left:-15px;
+	}
+
+	.mainnav{
+		font-size:15px;
+		width:100%;
+		opacity:0.6;
+		border:none;
+		margin-left:-15px;
+	}
+	.mainnav:hover{
+	text-decoration:none;
+	opacity:1;
+	color:white;
+	background:none;
+	}
+	.infobox{
+	margin-left:-10px;
+	}
+	.footercenter{
+		margin-top:20px;
+	}
+}

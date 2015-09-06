@@ -9,7 +9,7 @@ $(document).ready(function(){
         var img1=$(".img1");
         var img2=$(".img2")
         $('.parallax1').css({
-        	'transform': 'translate(0px, '+ y/2 +'%)'
+        	'transform': 'translate(0px, '+ (-y/10) +'%)'
         });
         if (mq.matches) {
 
